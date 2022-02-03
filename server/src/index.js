@@ -19,7 +19,7 @@ routes.forEach(({ method, route, handler }) => {
   app[method](route, handler)
 })
 
-app.listen(8000, ()=>{
+app.listen(7000, ()=>{
   console.log('server listening on 8000....')
 })
 
